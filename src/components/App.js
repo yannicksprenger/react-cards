@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Movies from './Movie/Movies';
+import Cards from './Card/Cards';
 
 export default class App extends Component {
 
@@ -8,7 +8,7 @@ export default class App extends Component {
         super();
 
         this.state = {
-            title: 'React Movie Cards'
+            title: 'React Cards'
         };
     }
 
@@ -17,7 +17,7 @@ export default class App extends Component {
             <div>
                 <Header title={this.state.title} />
                 <div className="mt-5">
-                    <Movies />
+                    <Cards />
                 </div>
             </div>
         );

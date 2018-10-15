@@ -1,0 +1,86 @@
+[
+    {
+        "id": 100,
+        "title": "Introduction",
+        "subtitle": "Card 1",
+        "description": "React creada por Jordan Walke, debido a problemas con el mantenimiento del código de anuncios."
+    },
+    {
+        "id": 200,
+        "title": "ReactJS",
+        "subtitle": "Card 2",
+        "description": "React JS biblioteca de JavaScript que crea interfaces de usuario y permite reutilizar sus componentes."
+    },
+    {
+        "id": 300,
+        "title": "DOM",
+        "subtitle": "Card 3",
+        "description": "Contiene un DOM propio y el del navegador."
+    },
+    {
+        "id": 400,
+        "title": "Props",
+        "subtitle": "Card 4",
+        "description": "Los componentes administran parámetros llamados props de propiedades y con el método render muestra en la pantalla lo codificado con los elementos inicializados."
+    },
+    {
+        "id": 500,
+        "title": "State",
+        "subtitle": "Card 5",
+        "description": "Estado de componente es una instantánea del propio componente."
+    },
+    {
+        "id": 600,
+        "title": "Lifecycle",
+        "subtitle": "Card 6",
+        "description": "Existe un ciclo de vida el que define los estados que pasa un componente. Inicialización, Actualización y Destrucción."
+    },
+    {
+        "id": 700,
+        "title": "Components",
+        "subtitle": "Card 7",
+        "description": "Los componentes ayudan a dejar a un lado los archivos separados y estos permiten ser usados en más partes de tu aplicación. "
+    },
+    {
+        "id": 800,
+        "title": "JSX",
+        "subtitle": "Card 8",
+        "description": "JSX en react ayuda a lo visual para el usuario dentro del código JavaScript. Los elementos son objetos que almacena una variable y se muestra en el programa."
+    },
+    {
+        "id": 900,
+        "title": "UI state",
+        "subtitle": "Card 9",
+        "description": "Los componentes de React deben representar el estado de la vista en cualquier momento y no solo en el momento de la inicialización."
+    },
+    {
+        "id": 1000,
+        "title": "render()",
+        "subtitle": "Card 10",
+        "description": "React debe incluir el nuevo valor en su render () . Si implementamos un campo <input> como siempre lo hicimos en HTML, React mantendrá el render () sincronizado con el DOM real. Y no se generaran cambios de valor en entrada"
+    },
+    {
+        "id": 1100,
+        "title": "Event Controller",
+        "subtitle": "Card 11",
+        "description": "Los desarrolladores deben implementar un controlador de eventos para capturar cambios con onChange."
+    },
+    {
+        "id": 1200,
+        "title": "Diferent points",
+        "subtitle": "Card 12",
+        "description": "Definir elementos en render () usando valores del estado. captura los cambios de un elemento de formulario utilizando onChange () a medida que ocurren. Actualizar el estado interno en el controlador de eventos. Guardar nuevos valores en el estado y luego actualizar la vista con un nuevo render ()"
+    },
+    {
+        "id": 1300,
+        "title": "Unidirectional link",
+        "subtitle": "Card 13",
+        "description": "Este es un enlace unidireccional, porque el estado solo cambia las vistas, con este , una biblioteca no actualizará el estado (o el modelo) automáticamente."
+    },
+    {
+        "id": 1400,
+        "title": "Bidirectional link",
+        "subtitle": "Card 14",
+        "description": "un enlace bidireccional permite que las vistas cambien de estado automáticamente sin que los desarrolladores lo implementen explícitamente"
+    }
+]

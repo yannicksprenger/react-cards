@@ -1,12 +1,12 @@
 # React Movie Cards
 
-A basic application that displays a list of movies as a list of cards. Each card provides movie detail such as title, subtitle, description, image, and rating.
+A basic application that displays a list of cards as a list of cards. Each card provides card detail such as title, subtitle, description, image, and rating.
 
-Go **[here](http://react-movie-cards.drminnaar.me/)** for live demo.
+Go **[here](http://react-cards.drminnaar.me/)** for live demo.
 
-This is a good example of using nested components because it illustrates a nesting of components 3 levels deep. A _Movie_ component has a _MovieList_ component has a _MovieCard_ component has a _StarRating_ component. The _Movie_ component also uses a service called _MovieService_ to retrieve a list of movies (this is from a json document).
+This is a good example of using nested components because it illustrates a nesting of components 3 levels deep. A _Movie_ component has a _List_ component has a _Card_ component has a _StarRating_ component. The _Movie_ component also uses a service called _MovieService_ to retrieve a list of cards (this is from a json document).
 
-Futhermore, I have configured webpack to make use of the [copy-webpack-plugin](https://www.npmjs.com/package/copy-webpack-plugin) to copy images into the _public_ folder. I have also included the [json-loader](https://www.npmjs.com/package/json-loader) to load my movie collection from a json file called movies.json.
+Futhermore, I have configured webpack to make use of the [copy-webpack-plugin](https://www.npmjs.com/package/copy-webpack-plugin) to copy images into the _public_ folder. I have also included the [json-loader](https://www.npmjs.com/package/json-loader) to load my card collection from a json file called cards.json.
 
 For styling, I have adopted bootstrap4 beta. I use SCSS for all custom written styles.
 
@@ -14,20 +14,20 @@ The application is composed of the following components:
 
 * Header - A heading that displays application title
 
-* Movies - The primary (root) component that manages state for Movies and all underlying components. It is also responsible for connecting to _MovieService_ to retrieve movie data
+* Cards - The primary (root) component that manages state for Cards and all underlying components. It is also responsible for connecting to _MovieService_ to retrieve card data
 
-* MovieList - Groups a collection of movies
+* List - Groups a collection of cards
 
-* MovieCard - Represents a single instance of a movie
+* Card - Represents a single instance of a card
 
-* StarRating - Indicates average rating of a movie as a list of 5 stars
+* StarRating - Indicates average rating of a card as a list of 5 stars
 
 Component Diagram
 ![Component Diagram](https://user-images.githubusercontent.com/33935506/34461060-3526427a-ee29-11e7-8e1c-03f91507c184.png)
 
-The following services are used to obtain movie data:
+The following services are used to obtain card data:
 
-* MovieService - A wrapper that retrieves data from a json file containing a list of movies
+* MovieService - A wrapper that retrieves data from a json file containing a list of cards
 
 Service Diagram
 ![Service Diagram](https://user-images.githubusercontent.com/33935506/34461059-34f6e87c-ee29-11e7-9678-848e3e3ffee9.png)
@@ -42,9 +42,9 @@ This project also demonstrates:
 
 **Screenshots:**
 
-![react-movie-cards-1](https://user-images.githubusercontent.com/33935506/33792483-dc335206-dca9-11e7-8f5d-420dc2ce262d.PNG)
-![react-movie-cards-2](https://user-images.githubusercontent.com/33935506/33792484-dc73ffc2-dca9-11e7-91a7-829f6df41648.PNG)
-![react-movie-cards-3](https://user-images.githubusercontent.com/33935506/33792485-dcb96fda-dca9-11e7-96fd-6c26435d94ce.PNG)
+![react-cards-1](https://user-images.githubusercontent.com/33935506/33792483-dc335206-dca9-11e7-8f5d-420dc2ce262d.PNG)
+![react-cards-2](https://user-images.githubusercontent.com/33935506/33792484-dc73ffc2-dca9-11e7-91a7-829f6df41648.PNG)
+![react-cards-3](https://user-images.githubusercontent.com/33935506/33792485-dcb96fda-dca9-11e7-96fd-6c26435d94ce.PNG)
 
 ---
 
@@ -122,22 +122,22 @@ npm -v
 
 Follow the following steps to get development environment running.
 
-* Clone _'react-movie-cards'_ repository from GitHub
+* Clone _'react-cards'_ repository from GitHub
 
   ```bash
-  git clone https://github.com/drminnaar/react-movie-cards.git
+  git clone https://github.com/drminnaar/react-cards.git
   ```
 
    _OR USING SSH_
 
   ```bash
-  git clone git@github.com:drminnaar/react-movie-cards.git
+  git clone git@github.com:drminnaar/react-cards.git
   ```
 
 * Install node modules
 
    ```bash
-   cd react-movie-cards
+   cd react-cards
    npm install
    npm dedupe
    ```
@@ -200,7 +200,7 @@ Follow the following steps to get development environment running.
 
 ## Versioning
 
-I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/drminnaar/react-movie-cards/tags).
+I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/drminnaar/react-cards/tags).
 
 ## Authors
 
@@ -213,7 +213,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [react-timer-basic]: https://github.com/drminnaar/react-timer-basic
 [react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
 [react-masterminds]: https://github.com/drminnaar/react-masterminds
-[react-movie-cards]: https://github.com/drminnaar/react-movie-cards
+[react-cards]: https://github.com/drminnaar/react-cards
 [react-calculator-standard]: https://github.com/drminnaar/react-calculator-standard
 [react-bitcoin-monitor]: https://github.com/drminnaar/react-bitcoin-monitor
 [react-weather-standard]: https://github.com/drminnaar/react-weather-standard
